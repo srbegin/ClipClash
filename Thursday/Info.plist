@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSExceptionDomains</key>
+		<dict>
+			<key>us-east-1.elasticbeanstalk.com</key>
+			<dict>
+				<key>NSExceptionAllowsInsecureHTTPLoads</key>
+				<true/>
+				<key>NSIncludesSubdomains</key>
+				<true/>
+			</dict>
+		</dict>
+	</dict>
+	<key>UIAppFonts</key>
+	<array>
+		<string>AttenNewRegular.otf</string>
+		<string>AttenNewRegularItalic.otf</string>
+		<string>AttenNewMedium.otf</string>
+		<string>AttenNewMediumItalic.otf</string>
+		<string>AttenNewBold.otf</string>
+		<string>AttenNewBoldItalic.otf</string>
+		<string>AttenNewExtraBold.otf</string>
+		<string>AttenNewExtraBoldItalic.otf</string>
+		<string>AttenNewBook.otf</string>
+		<string>AttenNewBookItalic.otf</string>
+	</array>
+	<key>UIViewControllerBasedStatusBarAppearance</key>
+	<false/>
+</dict>
+</plist>
